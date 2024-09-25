@@ -1,0 +1,28 @@
+h1 {
+    text-align: center;
+}
+
+div:nth-of-type(1) {
+    color: white;
+    width: 500px;
+    height: 500px;
+    border: 3px solid black;
+    margin: auto;
+
+}
+
+div:nth-of-type(1) > div:nth-of-type(1) {
+    color: white;
+    width: 300px;
+    height: 300px;
+    border: 3px solid black;
+    margin: 60px auto;
+}
+
+div:nth-of-type(1) > div:nth-of-type(1) > div:nth-of-type(1) {
+    color: white;
+    width: 100px;
+    height: 100px;
+    border: 3px solid black;
+    margin: 60px auto;
+}
